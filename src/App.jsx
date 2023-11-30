@@ -1,22 +1,17 @@
 
-import Router from './components/Routes/Router';
 import './App.css';
+import Home from './components/Home';
+import ComponentMain from './components/Lesson-6/ComponentMain';
+import { ThemeProvider } from './components/Lesson-6/ThemeContext';
 
 
 function App() {
-
-  const myStyle = {
-    color: 'red',
-    background: 'black'
-  }
-
   return (
     <>
-
-      <h1 style={myStyle}>
-        Hello world
-      </h1>
-      <Router />
+      <ThemeProvider>
+        <Home />
+        <ComponentMain />
+      </ThemeProvider>
     </>
   )
 }
