@@ -6,6 +6,7 @@ import { EffectCube, Pagination } from 'swiper/modules';
 const SwiperExample = () => {
     return (
         <>
+            <h1> Swiper example</h1>
             <Swiper
                 effect={'cube'}
                 grabCursor={true}
