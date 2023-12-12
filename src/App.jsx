@@ -1,8 +1,6 @@
 
 import './App.css';
-import Counter from './components/Lesson9/Counter';
 import SwiperExample from './components/SwiperExample';
-import ToDoList from './components/ToDoList';
 
 function App() {
   // const [number, setNumber] = useState(0);
